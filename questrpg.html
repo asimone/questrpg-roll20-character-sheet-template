@@ -1,145 +1,16 @@
-<div class="sheet-section-basic sheet-section">
-    <h2>Quest Character Sheet     <button type='roll' value="&{template:default} {{name=Skill Check}} {{Roll:=[[1d20]]}} {{Bonus:=+[[@{Level}]]}}"></button></h2>
-    <br><br>
-    <table>
-		<tr>
-			<td>
-			<input type="text" name="attr_Name" placeholder="Name" />
-			</td>
-			<td>
-				<label>HP:</label><input style="width: 50px;" type="number" name="attr_HP" />/<input type="number" style="width: 50px;"name="attr_HP_max">
-			</td>
-			<td>
-				<label>MP:</label><input type="number" style="width: 50px;" name="attr_MP" />/<input style="width: 50px;" type="number" name="attr_MP_max">
-			</td>
-			<td>
-			<label>Level</label><input type="number" name="attr_Level" placeholder="0" />
-			</td>
-		</tr>
-		<tr>
-			<td>
-			<input type="text" name="attr_Species" placeholder="Species" />
-			<td>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="attr_Class" / placeholder="Role">
-			</td>
-		    <td>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="attr_Background" / placeholder="Background">
-			</td>
-		</tr>
-	</table>
-	<table>
-	   <tr>
-			<input type="text" name="attr_Skills" style="width: 550px;" placeholder="Skills" />	        
-	   </tr>
-	</table>
-	<br><br>
-</div> <!-- .section-basic -->
+<div>Hit Points: <input type="number"> / 10</div>
+<div>Adventure Points: <input type="number"></div>
+<div><p>Hello,</p>
+<p>My name is <input type="text"> (<input type="text" placeholder="Pronouns">)</p>
+<p>I'm <input type="text"> years old, and stand <input type="text"> tall.</p>
+</div>
+<div>
+    <p>I'm the party's <input type="text">.</p>
+    <p>When people see me they first notice my <input type="text">, <input type="text">, and <input type="text">.</p>
+    <p>I wear <input type="text">, <input type="text">, and move with <input type="text">.</p>
+    <p>I from <input type="text">, where my people are known for <input type="text">.</p>
+    <p>I believe in <input type="text">, but my <input type="text"> side can get in my way.</p>
+    <p>I dream of <input type="text"><p></p></p>
+</div>
 
-<div class="sheet-break"></div>
-
-  <table cellpadding="10" cellspacing="0">
-            <tr>
-                <td colspan="3" class="sheet-statlabel-big-purp" style="font-size: 1.5em; width: 450px;">Weapons</td>
-            </tr>
-        </table>
-				<div class="sheet-roll-box sheet-cf">
-				<br>
-				<fieldset class="repeating_weapons">
-				<button class="sheet-text-button" type="roll" value="&{template:default} {{name=@{weapon}}} {{roll:=[[1d20+@{weaponbonus}]]}} {{Range:= **@{weaponrange}**}}{{Damage: **@{weapondam}**}}{{description:=@{weapondesc}}}"></button> <label class="sheet-weapon-name sheet-name">Name:</label>
-				<input type="text" name="attr_weapon"/>
-				<label class="sheet-weapon-range sheet-name">Range:</label>
-				 <select style="width: 100px;" name="attr_weaponrange" accept="Range">
-                   <option value="Reachable">Reachable</option>
-                    <option value="Near">Near</option>
-                    <option value="Far">Far</option>
-                 </select>
-				<label class="sheet-weapon-dam sheet-name">Damage:</label>
-				<input type="number" name="attr_weapondam"/>
-				<label class="sheet-weapon-dam sheet-name">Bonus:</label>
-				<input type="number" name="attr_weaponbonus"/><br />
-				<label class="sheet-weapon-desc sheet-name">Description:</label>
-                <textarea rows="4" cols="50" name="attr_weapondesc"></textarea>
-		        </fieldset>
-		        </div>
-</div> <!-- .section-weapon -->
-
-<div class="sheet-break"></div>
-
-
-  <table cellpadding="10" cellspacing="0">
-            <tr>
-                <td colspan="3" class="sheet-statlabel-big-purp" style="font-size: 1.5em; width: 450px;">Spells</td>
-            </tr>
-        </table>
-	    <fieldset class="repeating_abilities">
-            <button class="sheet-text-button" type='roll' value='&{template:default} {{name=@{ability}}} {{roll:=[[1d20+@{abilitybonus}]]}} {{Range:= **@{abilityrange}**}}{{MP:=**@{abilitycost}**}}' ></button> <label class="sheet-ability-name sheet-name">Name:</label>
-            <input type="text" name="attr_ability"/>
-		    <label class="sheet-ability-cost sheet-name">MP:</label>
-            <input type="text" style="width: 30px;" name="attr_abilitycost"/>
-				<label class="sheet-weapon-range sheet-name">Range:</label>
-				 <select style="width: 100px;" name="attr_abilityrange" accept="Range">
-                   <option value="Reachable">Reachable</option>
-                    <option value="Near">Near</option>
-                    <option value="Far">Far</option>
-                 </select>
-			<label class="sheet-ability-cost sheet-name">Bonus:</label>
-			<input type="number" name="attr_abilitybonus"/><br />
-		    <label class="sheet-ability-desc sheet-name">Description:</label>
-            <textarea rows="4" cols="50" name="attr_abilitydesc"></textarea>
-            <div class="sheet-roll-box sheet-cf">
-            
-		</fieldset>
-	        </div>
-</div> <!-- .section-ability -->
-
-<div class="sheet-break"></div>
-
-  <table cellpadding="10" cellspacing="0">
-            <tr>
-                <td colspan="3" class="sheet-statlabel-big-purp" style="font-size: 1.5em; width: 450px;">Background Abilities</td>
-            </tr>
-            <br>
-        </table>
-	    <fieldset class="repeating_talents">
-        <button class="sheet-text-button" type='roll' value='&{template:default} {{name=@{talent}}}{{talent:=@{talentdesc}}}' ></button> <label class="sheet-talent-name sheet-name">Name:</label>
-        <input type="text" name="attr_talent"/>
-		<label class="sheet-talent-desc sheet-name">Description:</label>
-        <textarea rows="4" cols="50" name="attr_talentdesc"></textarea>
-        <div class="sheet-roll-box sheet-cf">
-
-		</fieldset>
-		</div>
-</div> <!-- .section-talents -->
-	
-  <table cellpadding="10" cellspacing="0">
-            <tr>
-                <td colspan="3" class="sheet-statlabel-big-purp" style="font-size: 1.5em; width: 450px;">Magic Items & Curios</td>
-            </tr>
-            <br>
-        </table>
-	    <fieldset class="repeating_passive">
-        <button class="sheet-text-button" type='roll' value='&{template:default} {{name=@{passive}}}{{passive:=@{passivedesc}}}' ></button> <label class="sheet-passive-name sheet-name">Name:</label>
-        <input type="text" name="attr_passive"/><br />
-		<label class="sheet-talent1-cost sheet-name">Description:</label>
-        <textarea rows="4" cols="50" name="attr_passivedesc"></textarea>
-        <div class="sheet-roll-box sheet-cf">
-        </fieldset>
-		
-        </div>
-</div> <!-- .section-passive -->
-<br>
-<div class="sheet-break"></div>
-
-  <table cellpadding="10" cellspacing="0">
-            <tr>
-                <td colspan="3" class="sheet-statlabel-big-purp" style="font-size: 1.5em; width: 450px;">Notes</td>
-            </tr>
-        </table>
-        <label></label>
-        <textarea rows="4" cols="50" name="attr_notes"></textarea>
-        </fieldset>
-		
-        </div>
-</div> <!-- .section-passive -->
-
-<div class="sheet-break"></div>
+<div>Notes <textarea></textarea></div>
