@@ -1,3 +1,29 @@
+/*----------- Profile Section -------------*/
+
+.charsheet .sheet-section-profile
+{ 
+  background-image: url("https://raw.githubusercontent.com/asimone/questrpg-roll20-character-sheet-template/master/images/background-profile.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;   
+}
+
+.charsheet div.sheet-section-profile
+{
+ padding-top: 53px;      
+}
+
+.charsheet .sheet-section-profile p
+{  
+ font-family: 'Ovo', serif;
+ font-size: 24px;
+ margin-left: 110px;
+ padding: 5px;
+ width: 600px;
+ line-height: 1.6;
+}
+
+
+
 /*----------- Tabs Setup -------------*/
 
 /*this hides the contents of each tab by default*/
@@ -59,3 +85,4 @@
 	border-radius: 4px;
 }
 /*----------- End Tab Setup -----------*/
+
