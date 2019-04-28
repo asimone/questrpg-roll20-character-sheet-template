@@ -33,7 +33,9 @@
 
 /*this shows the tab content when the appropriate input field is selected*/
 .charsheet input.sheet-tab1:checked ~ div.sheet-section-profile,
-.charsheet input.sheet-tab2:checked ~ div.sheet-section-worksheet, {
+.charsheet input.sheet-tab2:checked ~ div.sheet-section-worksheet,
+.charsheet input.sheet-tab3:checked ~ div.sheet-section-abilities,
+{
 	display: block;
 }
 
