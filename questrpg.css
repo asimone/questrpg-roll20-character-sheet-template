@@ -17,6 +17,8 @@
  font-size: 24px;
  margin-left: 20px;
  line-height: 1.6;
+ width: 800px;
+ padding-bottom:10px;
 }
 
 /*----------- Profile Inputs -------------*/
@@ -62,28 +64,28 @@ input[type=number] {
 }
 
 .charsheet input.sheet-clothes {
-    width: 250px;
+    width: 340px;
 }
 
 .charsheet input.sheet-background {
-    width: 250px;
+    width: 440px;
 }
 
 
 .charsheet input.sheet-background2 {
-    width: 470px;
+    width: 630px;
 }
 
 .charsheet input.sheet-ethos {
-    width: 300px;
+    width: 370px;
 }
 
 .charsheet input.sheet-goal {
-    width: 580px;
+    width: 650px;
 }
 
 .charsheet textarea.sheet-notes {
-    width: 700px;
+    width: 770px;
     height: 130px;
     font-size: 24px;
 }
