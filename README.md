@@ -3,7 +3,7 @@ Custom <a href="https://roll20.net/">Roll20</a> Character Sheet Template for T.C
 
 ## Version 1.0
 
-It works, but it ain't particularly pretty. I tried to model it after the Quest RPG character profile and worksheet, but I tweaked a few things based on my experiences with how Roll20 is used. I will jazz up the formatting in the future, but we may never have complete parity with the visual of the official Quest character handouts since there are limitations to what kind of font families Roll20 let's you use in a custom character sheet.
+It works, but it ain't particularly pretty. I tried to model it after the Quest RPG character profile and worksheet, but I tweaked a few things based on my experiences with how Roll20 is used. I will jazz up the formatting in the future, but we may never have complete parity with the visuals of the official Quest character handouts since there are limitations to what kind of font families Roll20 let's you use in a custom character sheet.
 
 <a href="https://raw.githubusercontent.com/asimone/questrpg-roll20-character-sheet-template/master/Character%20Sheet%20Example%201.PNG">Example Image 1</a> <br/>
 <a href="https://raw.githubusercontent.com/asimone/questrpg-roll20-character-sheet-template/master/Character%20Sheet%20Example%202.PNG">Example Image 2</a>
