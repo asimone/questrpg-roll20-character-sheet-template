@@ -184,6 +184,24 @@ div.sheet-section-abilities p {
  font-size: 24px;
 }
 
+span.sheet-ap {
+    float: right;
+
+}
+
+span.sheet-hp {
+    text-align: center;
+}
+
+input.sheet-ap {
+      text-align: center;  
+}
+
+input.sheet-hp {
+      text-align: center;  
+}
+
+
 
 /*----------- End Abilities Section -------------*/
 
@@ -194,7 +212,9 @@ div.sheet-2colrow.sheet-2colrow-top {
 }
 
 .charsheet textarea.sheet-inv {
-    font-size: 24px;
+    font-size: 18px;
+    resize: none;
 }
+
 
 /*----------- End Inventory Section -------------*/
