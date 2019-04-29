@@ -45,7 +45,7 @@ img.sheet-logo {
     	display: inline-block;
 	font-size: 13px;	
 	background: #c7c3b0;
-	color: black;
+	color: white;
 	font-weight: bold;
 	border-radius: 4px;
 	
@@ -69,7 +69,7 @@ img.sheet-logo {
 .charsheet input.sheet-tab99:checked + span.sheet-tab99 {
     
     	background: #2c424e;
-    	color: #bfc4c6;
+    	color: white;
 	border-radius: 4px;
 }
 /*----------- End Tab Setup -----------*/
@@ -201,6 +201,16 @@ input.sheet-hp {
       text-align: center;  
 }
 
+input.sheet-ability-name {
+      margin-bottom: 10px; 
+      font-size: 18px;
+}
+
+textarea.sheet-ability-description {
+    font-size: 18px;
+    resize: none;
+    width: 790px;
+}
 
 
 /*----------- End Abilities Section -------------*/
