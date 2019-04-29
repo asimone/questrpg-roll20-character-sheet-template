@@ -28,10 +28,11 @@
         <p><span class="hp">Hit Points: <input class="hp" type="number" name="attr_hp"> / 10</span> 
         <span class="ap">Adventure Points: <input class="ap" type="number" name="attr_ap"></span></p>
 	
-            <h3>Abilities</h3>
+            <h3 class="ability-header">Abilities</h3>
             <fieldset class="repeating_skills"> 
-            <input type="text" class="ability-name" name="attr_ability-name" placeholder="Ability Name" />
-            <textarea class="ability-description" name="ability-description" placeholder="Ability Description"></textarea>           
+            <button class="sheet-text-button" type='roll' value='&{template:default} {{name=@{ability}}}{{=@{abilitydesc}}}' ></button> 
+            <input type="text" class="ability-name" name="attr_ability" placeholder="Ability Name" /> 
+            <textarea class="ability_description" name="attr_abilitydesc" placeholder="Ability Description"></textarea>           
             </fieldset>
 	</div>	
 	<div class="sheet-section-inv"><!-- Worksheet Tab -->

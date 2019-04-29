@@ -22,7 +22,7 @@ img.sheet-logo {
 {
 	display: block;
 	width: 800px;
-	background-color: #ffffff;
+	background-color: white;
 }
 
 .charsheet input.sheet-tab99:checked ~ div[class^="sheet-section"] { 	
@@ -201,6 +201,14 @@ input.sheet-hp {
       text-align: center;  
 }
 
+h3.sheet-ability-header {
+    text-align: center; 
+    color: #FFF; 
+    background-color: #2c424e;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 input.sheet-ability-name {
       margin-bottom: 10px; 
       font-size: 18px;
@@ -210,6 +218,7 @@ textarea.sheet-ability-description {
     font-size: 18px;
     resize: none;
     width: 790px;
+    resize: none;
 }
 
 
@@ -218,7 +227,7 @@ textarea.sheet-ability-description {
 /*----------- Inventory Section -------------*/
 
 div.sheet-2colrow.sheet-2colrow-top {
- padding-top: 30px;   
+    padding-top: 30px;   
 }
 
 .charsheet textarea.sheet-inv {
