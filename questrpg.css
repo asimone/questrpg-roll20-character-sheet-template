@@ -2,27 +2,91 @@
 
 .charsheet .sheet-section-profile
 { 
-  background-image: url("https://raw.githubusercontent.com/asimone/questrpg-roll20-character-sheet-template/master/images/background-profile.jpg");
-  background-color: #cccccc;
+  background-color: #ffffff;
   background-repeat: no-repeat;   
 }
 
 .charsheet div.sheet-section-profile
 {
- padding-top: 53px;      
+ padding-top: 20px;      
 }
 
 .charsheet .sheet-section-profile p
 {  
  font-family: 'Ovo', serif;
  font-size: 24px;
- margin-left: 110px;
- padding: 5px;
- width: 600px;
+ margin-left: 20px;
  line-height: 1.6;
 }
 
+/*----------- Profile Inputs -------------*/
 
+input[type=text],
+input[type=number] {
+    display: inline-block;
+    margin-right: 5px;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid black;
+    -moz-appearance:textfield;
+    font-size: 24px;
+}
+
+.charsheet input.sheet-name-field {
+    width: 300px;
+}
+
+.charsheet input.sheet-pronoun {
+    width: 130px;
+    text-align: center;
+}
+
+.charsheet input.sheet-age {
+    width: 70px;
+}
+
+.charsheet input.sheet-height {
+    width: 130px;
+}
+
+.charsheet input.sheet-role {
+    width: 275px;
+}
+
+.charsheet input.sheet-attribute {
+    width: 275px;
+}
+
+.charsheet input.sheet-attribute2 {
+    width: 370px;
+}
+
+.charsheet input.sheet-clothes {
+    width: 250px;
+}
+
+.charsheet input.sheet-background {
+    width: 250px;
+}
+
+
+.charsheet input.sheet-background2 {
+    width: 470px;
+}
+
+.charsheet input.sheet-ethos {
+    width: 300px;
+}
+
+.charsheet input.sheet-goal {
+    width: 580px;
+}
+
+.charsheet textarea.sheet-notes {
+    width: 700px;
+    height: 130px;
+    font-size: 24px;
+}
 
 /*----------- Tabs Setup -------------*/
 
