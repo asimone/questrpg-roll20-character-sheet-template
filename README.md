@@ -1,5 +1,5 @@
-# questrpg-roll20-character-sheet-template
-Custom Roll20 Character Sheet Template for T.C. Sottek's tabletop game, <a href="https://www.adventure.game/">Quest</a>.
+# Quest RPG Roll20 Character Sheet Template
+Custom <a href="https://roll20.net/">Roll20</a> Character Sheet Template for T.C. Sottek's tabletop game, <a href="https://www.adventure.game/">Quest</a>.
 
 ## Version 1.0
 
