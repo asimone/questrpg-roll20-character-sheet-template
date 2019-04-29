@@ -1,9 +1,9 @@
 # questrpg-roll20-character-sheet-template
 Custom Roll20 Character Sheet Template for T.C. Sottek's tabletop game, "Quest"
 
-## Verision
+## Version 1.0
 
-This is version 1.0, it works, but it ain't pretty. I tried to model it after the Quest RPG character profile and worksheet. I tweaked a few things based on my experiences with how Roll20 is used. I will jazz up the formatting in the future, but we may never have complete parity with the visual of the official Quest character handouts since there are limitations to what kind of font families Roll20 let's you use in a custom character sheet.
+This is version 1.0, it works, but it ain't pretty. I tried to model it after the Quest RPG character profile and worksheet, but I tweaked a few things based on my experiences with how Roll20 is used. I will jazz up the formatting in the future, but we may never have complete parity with the visual of the official Quest character handouts since there are limitations to what kind of font families Roll20 let's you use in a custom character sheet.
 
 
 ## Installation 
