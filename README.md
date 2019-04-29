@@ -11,7 +11,7 @@ It works, but it ain't particularly pretty. I tried to model it after the Quest 
 
 ## Installation 
 
-I'll eventually get this into the Roll20 Character Sheet Repo for easier installation, but for now, you'll need to do the following to use it:
+I'll eventually get this into the Roll20 Character Sheet Repo for easier installation, but for now you'll need to do the following to use it:
 
 1.) Create an Adventure <br/>
 2.) Go to Adventure Settings and under the **Character Sheet Template** Select "Custom" in the drop down menu. <br/>
