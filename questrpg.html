@@ -1,19 +1,17 @@
 <div>
 	<!-- Set up the Tabs -->
-	<input type="radio" class="sheet-tab sheet-tab1" name="attr_core-tab" value="1" title="Profile" checked="checked"/> 
+	<input type="radio" class="sheet-tab sheet-tab1" name="attr_core-tab" value="1" title="profile" checked="checked"/> 
 	<span class="sheet-tab sheet-tab1" style="line-height: 40px;">Profile</span>
-	<input type="radio" class="sheet-tab sheet-tab2" name="attr_core-tab" value="2" title="Worksheet" /> 
-	<span class="sheet-tab sheet-tab2" style="line-height: 40px;">Worksheet</span>
-	<input type="radio" class="sheet-tab sheet-tab3" name="attr_core-tab" value="3" title="Abilities" /> 
+	<input type="radio" class="sheet-tab sheet-tab3" name="attr_core-tab" value="3" title="abilities" /> 
 	<span class="sheet-tab sheet-tab3" style="line-height: 40px;">Abilities</span>
-
+	<input type="radio" class="sheet-tab sheet-tab2" name="attr_core-tab" value="2" title="inv" /> 
+	<span class="sheet-tab sheet-tab2" style="line-height: 40px;">Inventory</span>
+    <img class="logo" src="https://raw.githubusercontent.com/asimone/questrpg-roll20-character-sheet-template/master/images/quest.png">
 	<!-- End Tab setup -->	
 	<div class="sheet-section-profile"><!-- Profile Tab -->
         <div class="profile-text"><p>Hello,</p>
         <p>My name is <input class="name-field" type="text" name="attr_name"> (<input class="pronoun" type="text" placeholder="Pronouns" name="attr_pronouns">)</p>
         <p>I'm <input class="age" type="text" name="attr_age"> years old, and stand <input class="height" type="text" name="attr_height"> tall.</p>
-        </div>
-        <div>
             <p>I'm the party's <input class="role" type="text" name="attr_role">.</p>
             <p>When people see me, they first notice my <input class="attribute" type="text" name="attr_attribute1">, <input class="attribute" type="text" name="attr_attribute2">, and <input class="attribute2" type="text" name="attr_attribute3">.</p>
             <p>I wear <input class="clothes" name="attr_attribute4" type="text">, <input class="clothes" name="attr_attribute5" type="text">, and move with <input class="attribute2" name="attr_attribute6" type="text">.</p>
@@ -26,9 +24,39 @@
         </div>
 	</div>
 	
-	<div class="sheet-section-worksheet"><!-- Worksheet Tab -->
-        <div>Hit Points: <input type="number" name="attr_hp"> / 10</div>
-        <div>Adventure Points: <input  type="number" name="attr_ap"></div>
+	<div class="sheet-section-abilities"><!-- Abilities Tab -->
+        <p><span class="hp">Hit Points: <input type="number" name="attr_hp"> / 10</span> 
+        <span class="ap">Adventure Points: <input  type="number" name="attr_ap"></span></p>
+	</div>	
+	
+	
+	<div class="sheet-section-inv"><!-- Worksheet Tab -->
+	
+        <div class='sheet-2colrow 2colrow-top'>
+            <div class='sheet-col'>
+                <textarea class="inv" name="attr_item1"></textarea><br>
+                <textarea class="inv" name="attr_item2"></textarea><br>
+                <textarea class="inv" name="attr_item3"></textarea>
+            </div>
+            <div class='sheet-col'>
+                <textarea class="inv" name="item4"></textarea><br>
+                <textarea class="inv" name="item5"></textarea><br>
+                <textarea class="inv" name="item6"></textarea>
+            </div>
+        </div>
+        <div class='sheet-2colrow'>
+            <div class='sheet-col'>
+                <textarea class="inv" name="attr_item7"></textarea><br>
+                <textarea class="inv" name="attr_item8"></textarea><br>
+                <textarea class="inv" name="attr_item9"></textarea>
+            </div>
+            <div class='sheet-col'>
+                <textarea class="inv" name="attr_item10"></textarea><br>
+                <textarea class="inv" name="attr_item11"></textarea><br>
+                <textarea class="inv" name="attr_item12"></textarea>
+            </div>
+        </div>
 	</div>
+	
 
 </div>
