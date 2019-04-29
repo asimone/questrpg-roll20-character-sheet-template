@@ -17,7 +17,7 @@
             <p>I wear <input class="clothes" name="attr_attribute4" type="text">, <input class="clothes" name="attr_attribute5" type="text">, and move with <input class="attribute2" name="attr_attribute6" type="text">.</p>
             <p>I'm from <input class="background" type="text" name="attr_background">, where my people are known for <input class="background2" type="text" name="attr_background2">.</p>
             <p>I believe in <input class="ethos" type="text" name="attr_ideal">, but my <input class="ethos" type="text" name="attr_flaw"> side can get in my way.</p>
-            <p>I dream of: <input class="goal" type="text" name="attr_goal">.<p>
+            <p>I dream of <input class="goal" type="text" name="attr_goal">.<p>
         </div>
         <div class="profile-notes">
         <p><textarea class="notes" placeholder="Notes" name="attr_notes"></textarea></p>    
@@ -30,8 +30,9 @@
 	
             <h3 class="ability-header">Abilities</h3>
             <fieldset class="repeating_skills"> 
-            <button class="sheet-text-button" type='roll' value='&{template:default} {{name=@{ability}}}{{=@{abilitydesc}}}' ></button> 
-            <input type="text" class="ability-name" name="attr_ability" placeholder="Ability Name" /> 
+            <button class="sheet-text-button" type='roll' value='&{template:ability} {{name=@{ability}}} {{cost=@{cost}}} {{desc=@{abilitydesc}}}' ></button> 
+            <input type="text" class="ability-name" name="attr_ability" placeholder="Ability Name" />
+            <input type="text" class="ability-cost" name="attr_cost" placeholder="AP Cost" /> 
             <textarea class="ability_description" name="attr_abilitydesc" placeholder="Ability Description"></textarea>           
             </fieldset>
 	</div>	
@@ -44,9 +45,9 @@
                 <textarea class="inv" name="attr_item3"></textarea>
             </div>
             <div class='sheet-col'>
-                <textarea class="inv" name="item4"></textarea><br>
-                <textarea class="inv" name="item5"></textarea><br>
-                <textarea class="inv" name="item6"></textarea>
+                <textarea class="inv" name="attr_item4"></textarea><br>
+                <textarea class="inv" name="attr_item5"></textarea><br>
+                <textarea class="inv" name="attr_item6"></textarea>
             </div>
         </div>
         <div class='sheet-2colrow'>
@@ -62,6 +63,20 @@
             </div>
         </div>
 	</div>
-	
+
 
 </div>
+
+<!-- ROLL TEMPLATES -->
+<rolltemplate class="sheet-rolltemplate-ability">
+    <table>
+        <tr><th>{{name}}</th></tr>
+        </tr>
+        <tr>
+            <td><b>AP Cost:</b> {{cost}}</td>
+        </tr>
+        <tr>
+            <td class="desc">{{desc}}</td>        
+        </tr>
+    </table>
+</rolltemplate>

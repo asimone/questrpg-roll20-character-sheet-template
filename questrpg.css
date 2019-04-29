@@ -110,6 +110,7 @@ input[type=number] {
     border-bottom: 1px solid black;
     -moz-appearance:textfield;
     font-size: 24px;
+    margin-top: -5px;
 }
 
 .charsheet input.sheet-name-field {
@@ -126,7 +127,7 @@ input[type=number] {
 }
 
 .charsheet input.sheet-height {
-    width: 130px;
+    width: 180px;
 }
 
 .charsheet input.sheet-role {
@@ -214,6 +215,12 @@ input.sheet-ability-name {
       font-size: 18px;
 }
 
+input.sheet-ability-cost {
+      margin-bottom: 10px; 
+      font-size: 18px;
+      width: 75px;
+}
+
 textarea.sheet-ability-description {
     font-size: 18px;
     resize: none;
@@ -237,3 +244,32 @@ div.sheet-2colrow.sheet-2colrow-top {
 
 
 /*----------- End Inventory Section -------------*/
+
+
+/*----------- Ability Roll Template -------------*/
+
+.sheet-rolltemplate-ability table {
+    width: 100%;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid #2c424e;
+}
+ 
+.sheet-rolltemplate-ability th {
+    color: #FFF; 
+    background-color: #2c424e;
+    padding: 5px;
+	line-height: 1.1em;
+	font-size: 1em;
+    text-align: left;
+	font-family: "Arial", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.sheet-rolltemplate-ability td {
+    font-size: 14px;
+    padding: 5px;
+}
+ 
+
+/*----------- Ability Roll Template -------------*/
