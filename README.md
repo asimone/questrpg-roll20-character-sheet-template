@@ -15,6 +15,6 @@ I'll eventually get this into the Roll20 Character Sheet Repo for easier install
 
 1.) Create an Adventure <br/>
 2.) Go to Adventure Settings and under the **Character Sheet Template** Select "Custom" in the drop down menu. <br/>
-3.) Copy and paste the <a hred="https://github.com/asimone/questrpg-roll20-character-sheet-template/blob/master/questrpg.html">questrpg.html</a> code from this repo into "HTML Layout" section. <br/>
+3.) Copy and paste the <a href="https://github.com/asimone/questrpg-roll20-character-sheet-template/blob/master/questrpg.html">questrpg.html</a> code from this repo into "HTML Layout" section. <br/>
 4.) Copy and paste the <a href="https://github.com/asimone/questrpg-roll20-character-sheet-template/blob/master/questrpg.css">questrpg.css</a> code from repod into "CSS Styling" section. <br/>
 5.) Click Save and you should be good to go. <br/>
